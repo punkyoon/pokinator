@@ -7,8 +7,10 @@ build/
 dist/
 lib/
 lib64/
+sdist/
 var/
 .installed.cfg
+*.egg-info/
 *.egg
 
 *.manifest
