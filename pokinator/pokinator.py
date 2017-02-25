@@ -1,4 +1,5 @@
 from random import choice, randint
+#from .pokemons import _name1, _name2
 
 class Pokinator:
     _name1 = [
