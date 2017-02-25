@@ -11,11 +11,7 @@ class NameGenTest(unittest.TestCase):
         self.assertNotEqual(NameGen.generate(), NameGen.generate())
     
     def test_configurable_range(self):
-        # some error generation..
         self.assertTrue(re.match(r'\w+-\w+-\d$', NameGen.generate(9)))
-    
-    def test_drops_range_if_zero(self):
-        self.assertTrue(re.match(r'\w+ \w+$', NameGen.generate(0, ' ')))
     
     def test_wrong_range(self):
         with self.assertRaises(RuntimeError):
@@ -33,6 +29,10 @@ class NameGenTest(unittest.TestCase):
             NameGen.generate(token_range=999, digit=4)
 
 if __name__ == '__main__':
-    print('first result : ' + NameGen.generate())
+    print('#1 value test : ' + NameGen.generate())
+    print('#2 value test : ' + NameGen.generate(9))
+    print('#3 value test : ' + NameGen.generate(delimiter='*'))
+    print('#4 value test : ' + NameGen.generate(token_range=999, digit=3))
+    
     unittest.main()
 
