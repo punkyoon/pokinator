@@ -10,15 +10,20 @@ And can generate `n-digit` random number.
 
 ## Install
 
-will be added soon..
+using pip:
+
+`$ pip install namegen`
 
 ## Guide
 
-will be added soon..
+```python
+from namegen import NameGen
 
-## Run
-
-will be added soon..
+NameGen.generate()    # 'munchlax-snorlax-2910'
+NameGen.generate(9)    # 'ditto-pikachu-4' ; token_range=9
+NameGen.generate(delimiter='*')    # 'eevee*zubet*312'
+NameGen.generate(token_range=999, digit=3)    # 'goomy-onix-021'
+```
 
 ## License
 
