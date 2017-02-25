@@ -20,6 +20,6 @@ pip-log.txt
 pip-delete-this-directory.txt
 
 .coverage
-
+.pypyrc
 .DS_Store
 
