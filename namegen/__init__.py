@@ -1,1 +1,0 @@
-from .namegen import NameGen

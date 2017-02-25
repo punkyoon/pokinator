@@ -1,4 +1,4 @@
-# namegen
+# pokinator
 
 ## Introduction
 
@@ -12,17 +12,17 @@ And can generate `n-digit` random number.
 
 using pip:
 
-`$ pip install namegen`
+`$ pip install pokinator`
 
 ## Guide
 
 ```python
-from namegen import NameGen
+from pokinator import Pokinater
 
-NameGen.generate()    # 'munchlax-snorlax-2910'
-NameGen.generate(9)    # 'ditto-pikachu-4' ; token_range=9
-NameGen.generate(delimiter='*')    # 'eevee*zubet*312'
-NameGen.generate(token_range=999, digit=3)    # 'goomy-onix-021'
+Pokinater.generate()    # 'munchlax-snorlax-2910'
+Pokinater.generate(9)    # 'ditto-pikachu-4' ; token_range=9
+Pokinater.generate(delimiter='*')    # 'eevee*zubet*312'
+Pokinater.generate(token_range=999, digit=3)    # 'goomy-onix-021'
 ```
 
 ## License

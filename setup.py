@@ -17,17 +17,18 @@ CLASSIFIERS = [
 ]
 
 setup(
-	name='namegen',
+	name='pokinator',
 	author='punkyoon',
 	author_email='punkkid001@gmail.com',
 	keywords='random pokemon name generator',
 	description='Heroku-like random pokemon name generator for python',
 	license='MIT',
 	version='1.0',
-	url='https://github.com/punkyoon/namegen',
-	packages=['namegen'],
-	test_suite='namegen.tests',
+	url='https://github.com/punkyoon/pokinator',
+	packages=['pokinator'],
+	test_suite='pokinator.tests',
 	include_package_data=True,
 	classifiers=CLASSIFIERS,
 	platforms=['any']
 )
+

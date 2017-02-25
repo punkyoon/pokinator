@@ -1,6 +1,6 @@
 from random import choice, randint
 
-class NameGen:
+class Pokinator:
     _name1 = [
         'abra', 'arbok', 'arcanine',
         'bellsprout', 'blissey', 'bulbasaur',
