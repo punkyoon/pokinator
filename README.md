@@ -22,5 +22,7 @@ will be added soon..
 
 ## License
 
-MIT license
+[MIT license](https://github.com/punkyoon/namegen/blob/master/LICENSE)
+
+Copyright (c) 2017 punkyoon(Jiyoon Ha)
 
