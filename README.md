@@ -1,5 +1,7 @@
 # pokinator
 
+[![Build Status](https://travis-ci.org/punkyoon/namegen.svg?branch=master)](https://travis-ci.org/punkyoon/namegen) [![PyPI version](https://badge.fury.io/py/pokinator.svg)](https://pypi.python.org/pypi/pokinator/1.0)
+
 ## Introduction
 
 Heroku like random pokemon name generator for python.
