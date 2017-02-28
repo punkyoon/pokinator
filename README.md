@@ -1,6 +1,6 @@
 # pokinator
 
-[![Build Status](https://travis-ci.org/punkyoon/pokinator.svg?branch=master)](https://travis-ci.org/punkyoon/pokinator)(https://travis-ci.org/punkyoon/namegen) [![PyPI version](https://badge.fury.io/py/pokinator.svg)](https://pypi.python.org/pypi/pokinator/1.0)
+[![Build Status](https://travis-ci.org/punkyoon/pokinator.svg?branch=master)](https://travis-ci.org/punkyoon/pokinator) [![PyPI version](https://badge.fury.io/py/pokinator.svg)](https://pypi.python.org/pypi/pokinator/1.0)
 
 ## Introduction
 
