@@ -38,7 +38,7 @@ Guide
 License
 =======
 
-MIT license_
+`MIT license`_
 
 .. _MIT license: https://github.com/punkyoon/pokinator/blob/master/LICENSE
 
