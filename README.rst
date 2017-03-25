@@ -4,7 +4,6 @@ pokinator
 .. image:: https://travis-ci.org/punkyoon/pokinator.svg?branch=master
     :target: https://travis-ci.org/punkyoon/pokinator
 
-(https://travis-ci.org/punkyoon/pokinator)
 .. image:: https://badge.fury.io/py/pokinator.svg
     :target: https://pypi.python.org/pypi/pokinator/1.0
 
