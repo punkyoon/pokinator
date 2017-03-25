@@ -5,7 +5,7 @@ pokinator
     :target: https://travis-ci.org/punkyoon/pokinator
 
 .. image:: https://badge.fury.io/py/pokinator.svg
-    :target: https://pypi.python.org/pypi/pokinator/1.0
+    :target: https://pypi.python.org/pypi/pokinator/1.1
 
 Introduction
 ============
