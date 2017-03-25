@@ -9,10 +9,9 @@ CLASSIFIERS = [
 	'Operating System :: OS Independent',
 	'Programming Language :: Python',
 	'Programming Language :: Python :: 3',
-	'Programming Language :: Python :: 3.2',
-	'Programming Language :: Python :: 3.3',
 	'Programming Language :: Python :: 3.4',
 	'Programming Language :: Python :: 3.5',
+    'Programming Language :: Python :: 3.6',
 	'Topic :: Software Development :: Libraries :: Python Modules',
 ]
 
@@ -23,7 +22,7 @@ setup(
 	keywords='random pokemon name generator',
 	description='Heroku-like random pokemon name generator for python',
 	license='MIT',
-	version='1.0',
+	version='1.1',
 	url='https://github.com/punkyoon/pokinator',
 	packages=['pokinator'],
 	test_suite='pokinator.tests',

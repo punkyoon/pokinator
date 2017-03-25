@@ -1,6 +1,8 @@
 from random import choice, randint
+from pokemons import firstgen
 
 class Pokinator:
+    """
     _name1 = [
         'abra', 'arbok', 'arcanine',
         'bellsprout', 'blissey', 'bulbasaur',
@@ -32,6 +34,9 @@ class Pokinator:
         'yamask', 'yanma', 'yungoos',
         'zapdos', 'zorua', 'zubet',
     ]
+    """
+    _name1 = firstgen._name1
+    _name2 = firstgen._name2
     
     @classmethod
     def generate(self, token_range=9999, delimiter='-', digit=None):
