@@ -22,5 +22,6 @@ class Pokinator:
         else:
             result = randint(0, token_range)
         generated.append(str(result))
+        
         return delimiter.join(generated)
 
