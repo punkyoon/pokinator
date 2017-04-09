@@ -24,7 +24,7 @@ setup(
 	license='MIT',
 	version='1.1',
 	url='https://github.com/punkyoon/pokinator',
-	packages=['pokinator'],
+	packages=['pokinator', 'pokinator/pokemons'],
 	test_suite='pokinator.tests',
 	include_package_data=True,
 	classifiers=CLASSIFIERS,
