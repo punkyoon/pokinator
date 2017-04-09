@@ -28,7 +28,7 @@ Guide
 
 .. code-block:: python
 
-    from pokinator import Pokinater
+    from pokinator import Pokinator
     
     Pokinator.generate()    # 'munchlax-snorlax-2910'
     Pokinator.generate(9)    # 'ditto-pikachu-4' ; token_range=9
