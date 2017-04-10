@@ -6,8 +6,8 @@ python:
   - 3.6
 
 install:
-  - python setup.py install
+  - pip install pokinator
 
 script:
- - python ./pokinator/tests.py
+ - python -c 'from pokinator import tests; tests.run_test();'
 
