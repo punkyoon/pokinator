@@ -1,5 +1,6 @@
 from random import choice, randint
-from pokemons import firstgen
+from .pokemons import firstgen
+#from .pokemons import firstgen
 
 class Pokinator:
     _name1 = firstgen._name1

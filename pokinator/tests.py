@@ -28,11 +28,12 @@ class NameGenTest(unittest.TestCase):
             Pokinator.generate(digit=3)
             Pokinator.generate(token_range=999, digit=4)
 
-if __name__ == '__main__':
+def run_test():
     print('#1 value test : ' + Pokinator.generate())
     print('#2 value test : ' + Pokinator.generate(9))
     print('#3 value test : ' + Pokinator.generate(delimiter='*'))
     print('#4 value test : ' + Pokinator.generate(token_range=999, digit=3))
-    
-    unittest.main()
 
+    ts = unittest.makeSuite(NameGenTest,  'test')
+    runner = unittest.TextTestRunner()
+    runner.run(ts)
