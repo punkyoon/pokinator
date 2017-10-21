@@ -10,6 +10,9 @@ class NameGenTest(unittest.TestCase):
     def test_generate(self):
         self.assertTrue(re.match(r'\w+-\w+-\d+', Pokinator.generate()))
 
+    def test_generate_lowercase(self):
+        self.assertTrue(re.match(r'[a-z]+-[a-z]+-\d+', Pokinator.generate(lowercase=True)))
+
     def test_generate_generation(self):
         for i in range(1, 7):
             self.assertTrue(re.match(r'\w+-\w+-\d+', Pokinator.generate(generation=i)))
@@ -48,6 +51,7 @@ def run_test():
     print('#3 value test : ' + Pokinator.generate(delimiter='*'))
     print('#4 value test : ' + Pokinator.generate(token_range=999, digit=3))
     print('#5 value test : ' + Pokinator.generate(generation=2))
+    print('#6 value test : ' + Pokinator.generate(lowercase=True))
 
     ts = unittest.makeSuite(NameGenTest,  'test')
     runner = unittest.TextTestRunner()

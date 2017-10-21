@@ -35,6 +35,7 @@ Guide
     Pokinator.generate(delimiter='*')               # 'Eevee*Zubat*312'
     Pokinator.generate(token_range=999, digit=3)    # 'Diglett-Onix-021'
     Pokinator.generate(generation=2)                # 'Mareep-Piloswine-5034'
+    Pokinator.generate(lowercase=True)              # 'dugtrio-marowak-3121'
 
 License
 =======

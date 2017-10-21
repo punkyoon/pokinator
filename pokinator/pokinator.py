@@ -16,7 +16,7 @@ RE_WORD = re.compile('[\W_]+')
 
 class Pokinator:
     @classmethod
-    def generate(self, token_range=9999, delimiter='-', digit=None, generation=1):
+    def generate(self, token_range=9999, delimiter='-', digit=None, generation=1, lowercase=False):
         if not isinstance(token_range, int) or token_range < 0:
             raise RuntimeError('Token range must be a nonnegative integer')
         if not isinstance(delimiter, str):
@@ -61,4 +61,7 @@ class Pokinator:
             result = randint(0, token_range)
         generated.append(str(result))
 
-        return delimiter.join(generated)
+        result = delimiter.join(generated)
+        if lowercase is True:
+            result = result.lower()
+        return result
