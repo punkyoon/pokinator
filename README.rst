@@ -30,10 +30,10 @@ Guide
 
     from pokinator import Pokinator
     
-    Pokinator.generate()    # 'munchlax-snorlax-2910'
-    Pokinator.generate(9)    # 'ditto-pikachu-4' ; token_range=9
-    Pokinator.generate(delimiter='*')    # 'eevee*zubet*312'
-    Pokinator.generate(token_range=999, digit=3)    # 'goomy-onix-021'
+    Pokinator.generate()                            # 'Wigglytuff-Snorlax-2910'
+    Pokinator.generate(9)                           # 'Ditto-Pikachu-4' ; token_range=9
+    Pokinator.generate(delimiter='*')               # 'Eevee*Zubat*312'
+    Pokinator.generate(token_range=999, digit=3)    # 'Diglett-Onix-021'
 
 License
 =======
