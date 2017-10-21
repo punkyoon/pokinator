@@ -34,6 +34,7 @@ Guide
     Pokinator.generate(9)                           # 'Ditto-Pikachu-4' ; token_range=9
     Pokinator.generate(delimiter='*')               # 'Eevee*Zubat*312'
     Pokinator.generate(token_range=999, digit=3)    # 'Diglett-Onix-021'
+    Pokinator.generate(generation=2)                # 'Mareep-Piloswine-5034'
 
 License
 =======

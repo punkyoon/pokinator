@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 _name1 = [
     'Bulbasaur', 'Ivysaur', 'Venusaur', 'Charmander', 'Charmeleon',
     'Charizard', 'Squirtle', 'Wartortle', 'Blastoise', 'Caterpie',
