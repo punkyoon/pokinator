@@ -37,6 +37,13 @@ Guide
     Pokinator.generate(generation=2)                # 'Mareep-Piloswine-5034'
     Pokinator.generate(lowercase=True)              # 'dugtrio-marowak-3121'
 
+    # you can also force the same output
+    # for a given generation sequence
+    import random
+    random.seed(5)
+    Pokinator.generate()                           # 'Pidgey-Farfetchd-6594'
+    Pokinator.generate()                           # 'Vileplume-Jynx-3548'
+
 License
 =======
 
