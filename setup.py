@@ -23,7 +23,7 @@ setup(
     keywords='random pokemon name generator',
     description='Heroku-like random pokemon name generator for python',
     license='MIT',
-    version='1.1.2',
+    version='1.2.0',
     url='https://github.com/punkyoon/pokinator',
     packages=['pokinator', 'pokinator/pokemons'],
     test_suite='pokinator.tests',
