@@ -30,10 +30,19 @@ Guide
 
     from pokinator import Pokinator
     
-    Pokinator.generate()    # 'munchlax-snorlax-2910'
-    Pokinator.generate(9)    # 'ditto-pikachu-4' ; token_range=9
-    Pokinator.generate(delimiter='*')    # 'eevee*zubet*312'
-    Pokinator.generate(token_range=999, digit=3)    # 'goomy-onix-021'
+    Pokinator.generate()                            # 'Wigglytuff-Snorlax-2910'
+    Pokinator.generate(9)                           # 'Ditto-Pikachu-4' ; token_range=9
+    Pokinator.generate(delimiter='*')               # 'Eevee*Zubat*312'
+    Pokinator.generate(token_range=999, digit=3)    # 'Diglett-Onix-021'
+    Pokinator.generate(generation=2)                # 'Mareep-Piloswine-5034'
+    Pokinator.generate(lowercase=True)              # 'dugtrio-marowak-3121'
+
+    # you can also force the same output
+    # for a given generation sequence
+    import random
+    random.seed(5)
+    Pokinator.generate()                           # 'Pidgey-Farfetchd-6594'
+    Pokinator.generate()                           # 'Vileplume-Jynx-3548'
 
 License
 =======
